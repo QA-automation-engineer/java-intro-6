@@ -43,6 +43,10 @@ public class Human {
 		this.cell = cell;
 	}
 
+	public void takeCell(Cell cell, int phoneProducedYear) {
+		this.cell = cell;
+	}
+
 	public void insertSimCard() {
 		cell.insertSimCard();
 	}
